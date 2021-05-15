@@ -1,11 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5dd706eb_002D2322_002D4940_002Da705_002D06cd9bd89ce4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCase" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5dd706eb_002D2322_002D4940_002Da705_002D06cd9bd89ce4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestCase" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::B86BE65B-9A81-4D0B-B6A2-845FECD2FEFD::.NETCoreApp,Version=v3.1::Kata_7kyu_Test._01.VowelCountTest.TestCase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B86BE65B-9A81-4D0B-B6A2-845FECD2FEFD::.NETCoreApp,Version=v3.1::Kata_7kyu_Test._02.AccumulTest.test1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=99b21002_002D07b7_002D408a_002Da3e0_002Dbabd387e63c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestCase #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=99b21002_002D07b7_002D408a_002Da3e0_002Dbabd387e63c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCase #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::B86BE65B-9A81-4D0B-B6A2-845FECD2FEFD::.NETCoreApp,Version=v3.1::Kata_7kyu_Test._01.VowelCountTest.TestCase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B86BE65B-9A81-4D0B-B6A2-845FECD2FEFD::.NETCoreApp,Version=v3.1::Kata_7kyu_Test._02.AccumulTest.test1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
