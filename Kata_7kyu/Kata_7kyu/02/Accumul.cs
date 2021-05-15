@@ -9,7 +9,8 @@ namespace Kata_7kyu._02
         public static void Start()
         {
             // Console.WriteLine(Accum("AbC"));
-            Console.WriteLine(Accum_v2("AbC"));
+            // Console.WriteLine(Accum_v2("AbC"));
+            Console.WriteLine(Accum_v3("AbC"));
         }
         
         /// <summary>
@@ -64,6 +65,21 @@ namespace Kata_7kyu._02
         public static string Accum_v2(string s)
         {
             return string.Join("-", s.Select((c, i) => char.ToUpper(c) + new string(char.ToLower(c), i)));
+        }
+
+        public static string Accum_v3(string s)
+        {
+            if (s.Length < 1) return "";
+
+            var sb = new StringBuilder();
+            int count = 1;
+
+            foreach (char c in s.ToLower())
+                sb.Append(Char.ToUpper(c), 1)
+                    .Append(c, count++ - 1)
+                    .Append('-');
+
+            return sb.ToString().TrimEnd('-');
         }
     }
 }
