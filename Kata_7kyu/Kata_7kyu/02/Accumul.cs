@@ -8,9 +8,15 @@ namespace Kata_7kyu._02
     {
         public static void Start()
         {
-            Console.WriteLine(Accum("AbC"));
+            // Console.WriteLine(Accum("AbC"));
+            Console.WriteLine(Accum_v2("AbC"));
         }
         
+        /// <summary>
+        /// Мое решение
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public static string Accum(string s)
         {
             var result = new StringBuilder();
@@ -48,6 +54,16 @@ namespace Kata_7kyu._02
             }
 
             return result.ToString();
+        }
+
+        /// <summary>
+        /// Пример с codewars
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public static string Accum_v2(string s)
+        {
+            return string.Join("-", s.Select((c, i) => char.ToUpper(c) + new string(char.ToLower(c), i)));
         }
     }
 }
